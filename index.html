@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <title>GitHub Finder</title>
+  </head>
+  <body>
+    <nav className="navbar bg-primary">
+      <h1 class="display-4">
+        <i class="fa fa-github" aria-hidden="true"></i>
+        GitHub Profile Finder
+      </h1>
+    </nav>
+    <div class="container ">
+       
+      <div class="card text-left">
+        <!-- <img class="card-img-top" src="holder.js/100px180/" alt=""> -->
+        <div class="card-body">
+        <div class="row">
+        
+          <p class="card-text">
+          
+            
+            <div class="active-purple-3 active-purple-4 col-mb-6">
+              <span class="mt-3 ml-5 badge badge-secondary">Enter username to find Profile</span>
+
+              <input class="ml-5 mb-5 form-control" id="search" type="text" placeholder="Search" aria-label="Search">
+            </div>
+           
+         
+            
+          </p>
+
+        </div>
+        <div class="row" >
+         <div class='col-md-3' id='img'></div>
+          <div class="col-md-9" >
+            <div id='dtl'></div>
+            <div id='detail'></div>
+          </div>
+        </div>
+
+    
+
+      </div>
+      </div>
+    <div id='rep'></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
